@@ -10,7 +10,7 @@
 
 ## Acoustic Based Predictive Maintenance
 Hrishikesh Gupta, CPDM, Smart Manufacturing, ghrishikesh@iisc.ac.in
-Priya, CPDM, Smart Manufacturing, priya2024@iisc.ac.in  
+Priya, CPDM, Smart Manufacturing, priya2024@iisc.ac.in
 Yogendra Singh Rathore, CPDM, Smart Manufacturing, yogendrasr@iisc.ac.in
 Giorgia Bravi, Exchange Student, OIR, giorgiabravi@iisc.ac.in
 Pandarasamy Arjunan, RBCCPS, samy@iisc.ac.in
@@ -71,8 +71,7 @@ minutes, and 53 seconds
 • Defect2: 542 samples
 • Normal Mode: 454 samples
 • Pre-processing :
-• Converted to 16kHz frequency from 48kHz using
-Audacity application.
+• Converted to 16kHz frequency from 48kHz using Audacity application.
 • Audio duration per segment: ~4.8 to 5.1 seconds
 • MFCC Feature Extraction
 
@@ -85,7 +84,7 @@ Audacity application.
 ## Methodology
  
 ## Feature Extraction
-MFCC (Mel Frequency Cepstral Coefficients): Feature extraction technique used to represent the spectral content of an audio signal. It captures the most relevant sound characteristics. In our project, 25 MFCC coefficients are extracted from each audio segment to reduce the dimensionality and keep key information. 
+MFCC (Mel Frequency Cepstral Coefficients): Feature extraction technique used to represent the spectral content of an audio signal. It captures the most relevant sound characteristics. In our project, 25 MFCC coefficients are extracted from each audio segment to reduce the dimensionality and keep key information.
 •	Number of Coefficients: 25
 •	Frame Length: 0.02 s
 •	Frame Stride: 0.02 s
